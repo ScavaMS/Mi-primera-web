@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Primer Website Mejorada</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar">
+            <a href="index.html" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href=hawke.html> Hawke </a> </li>
+                <li><a href=personajes.html> Personajes </a> </li>
+                <li><a href=musica.html> Música </a> </li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1></h1>
+            <section>
+                <p></p>
+            </section>
+            <section>
+                <p></p>
+
+            </section>
+
+            <aside>
+                <p>Canciones</p>
+                <button onclick="Liar()">I'm Not Calling You A Liar</button>
+                <button onclick="Dawn()">The Dawn Will Come</button>
+                <button onclick="Warden()">Grey Warden Song</button>
+                <button onclick="Hawke()">Hawke Theme</button>
+                <button onclick="Leliana()">Leliana's Song</button>
+                <button onclick="Elf()">Lost Elf Theme</button>
+                <button onclick="Main()">Main Theme</button>
+                <button onclick="Orlais()">Orlais Theme</button>
+                <button onclick="Rogue()">Rogue Heart</button>
+                <button onclick="Cancion()">Canción especial</button>
+                <button onclick="Sera()">Sera Was Never</button>
+                <button onclick="Tavern()">Tavern Music</button>
+                <button onclick="One()">I Am The One</button>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <button onclick="myFunction()">Siguiente canción</button>
+  
+        <audio id= "canciones" controls autoplay>
+          <source id="cancion" src="audio/Sera.mp3" type="audio/mp3">
+        </audio>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

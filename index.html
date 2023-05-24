@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <div class="row">
+
+      <div class="column">
+
+      <h1>¿Quiéres ser tu propio jefe?</h1>
+      <p>Soy Marina Schiappapietra, ¡y ésta es su oportunidad para volverse millonario!<br/>A continuación se presentarán las razones principales:</p>
+      
+      <div class="container">
+
+
+         <div class="container">
+          
+        <header>
+          <niv>
+        <ol start="1">
+          <li><a href=hawke.html> Hawke </a> </li>
+          <li><a href=personajes.html> Personajes </a> </li>
+          <li><a href=historia.html> Historia </a> </li>
+        </ul>
+      </niv>
+      </header>
+
+        </div>
+
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <blockquote>"Don't worry. Helping People And Killing People Are What I'm Best At." </blockquote>
+    
+    <div class="medias">
+      <button onclick="showAlert()">Botón normal.jpg</button>
+
+      <button onclick="myFunction()">Siguiente canción</button>
+
+      <audio id= "cancione" controls autoplay>
+        <source id="Sera" src="audio/Sera.mp3" type="audio/mp3">
+      </audio>
+    </div> 
+
+    <div class="tabla">
+      <p>Canciones</p>
+      <button onclick="Liar()">I'm Not Calling You A Liar</button>
+      <button onclick="Dawn()">The Dawn Will Come</button>
+      <button onclick="Warden()">Grey Warden Song</button>
+      <button onclick="Hawke()">Hawke Theme</button>
+      <button onclick="Leliana()">Leliana's Song</button>
+      <button onclick="Elf()">Lost Elf Theme</button>
+      <button onclick="Main()">Main Theme</button>
+      <button onclick="Orlais()">Orlais Theme</button>
+      <button onclick="Rogue()">Rogue Heart</button>
+      <button onclick="Cancion()">Canción especial</button>
+      <button onclick="Sera()">Sera Was Never</button>
+      <button onclick="Tavern()">Tavern Music</button>
+      <button onclick="One()">I Am The One</button>
+
+
+    </div>
+
+  <form id="myForm">
+    <label for="respuesta">¿Es Dragon Age 2 el mejor juego de la historia?</label>
+    <input type="respuesta" id="respuesta" name="respuesta" required>
+    <button onclick= "validateForm()" type="submit">Enviar</button>
+  </form>
+
+
+  <script src="script.js"></script>
+
+  </body>
+</html>

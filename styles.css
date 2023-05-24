@@ -138,5 +138,6 @@ li>a {
       align-items: center;
       gap:70px;
       font-size: 40px;
+      z-index: 10;
     }
   }

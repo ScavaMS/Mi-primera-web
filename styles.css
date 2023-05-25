@@ -104,6 +104,10 @@ li>a {
     .column {
       flex: 100%;
     }
+
+    body {
+        background-image: url(img/N.jpeg);
+    }
   
   
     .nav-links {

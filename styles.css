@@ -7,7 +7,6 @@ body {
 
 .container {
     padding: 20px;
-    max-width: 800px;
     min-height: 500px;
 }
 
@@ -16,9 +15,60 @@ h1 {
     text-align: center;
 }
 
-section {
-    text-align: flex-start;
+.personajes {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space:nowrap;
+    margin: 0 20px;
+    padding: 10px;
 }
+
+img {
+    width: 150px;
+}
+
+.Hawke, .botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.io {
+    display:none;
+}
+
+.io.io-responsive {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hawke.hawke-responsive {
+    display:none;
+}
+.botones.botones-responsive {
+    display:none;
+}
+
+#imagen {
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+display: inline-block;
+flex-wrap: nowrap;
+white-space: nowrap;
+border: 5px black solid;
+box-sizing: border-box;
+margin: 0 20px;
+padding: 10px;
+overflow: hidden; */
 
 aside {
     position: absolute;
@@ -109,6 +159,18 @@ li>a {
         background-image: url(img/N.jpeg);
     }
   
+    img {
+        width: 100px;
+    }
+
+    .personajes {
+        position: absolute;
+        display: flex;
+        margin: 0 20px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
   
     .nav-links {
       display: none;

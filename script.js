@@ -6,6 +6,8 @@ document.querySelector(".button-menu-toggle").addEventListener("click", function
 function showAlert() {alert("Descargate el Dragon Age 2 ya o te filtro la IP");}
 
 
+
+//Canciones
   const aa = ["audio/Sera.mp3", "audio/Lost-Elf.mp3", "audio/Main-Theme.mp3", "audio/Calling-You-A-Liar.mp3", "audio/Rick.mp3", "audio/Hawke-Theme.mp3", "audio/Rogue-Heart.mp3", "audio/Grey-Warden.mp3", "audio/Orlais-Theme.mp3", "audio/The-One.mp3", "audio/Tavern.mp3", "audio/Dawn.mp3", "audio/Leliana.mp3"];  
   let cr = 1;
 
@@ -82,23 +84,4 @@ function showAlert() {alert("Descargate el Dragon Age 2 ya o te filtro la IP");}
     }
 
 
-    
-const form = document.getElementById('myForm');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
-  validateForm();
-});
 
-function validateRespuesta(respuesta) {
-    const regex = /^si$/i;
-    return regex.test(respuesta);
-  }
-  function validateForm() {
-    const respuestaInput = document.getElementById('respuesta');
-    const respuesta = respuestaInput.value;
-    if (!validateRespuesta(respuesta)) {
-      alert("Falso. Totalmente falso.");
-    } else {
-      alert("Que intelectual por dios.");
-    }
-  }

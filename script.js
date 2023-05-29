@@ -82,6 +82,3 @@ function showAlert() {alert("Descargate el Dragon Age 2 ya o te filtro la IP");}
       document.getElementById("cancion").src= aa[9];
       document.getElementById("canciones").load();
     }
-
-
-

@@ -10,7 +10,7 @@
 
 <body>
     <header class="container-nav">
-        <nav class="navbar">
+        <nav class="navbar" role="navigation">
             <a href="index.html" class="brand">Mi página web</a>
             <ul class="nav-links">
                 <li><a href=hawke.html> Hawke </a> </li>
@@ -25,14 +25,32 @@
         <div class="container">
             <h1>Choose your player</h1>
             <section class="personajes">
-                <img src="img/P/Anders.jpg">
-                <img src="img/P/Justice.png">
-                <img src="img/P/Nathaniel.jpg">
+                <figure>
+                    <img onclick="anders()" src="img/P/Anders.jpg">
+                    <figcaption>Anders</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="justice()" src="img/P/Justice.png">
+                    <figcaption>Justice</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="nathaniel()" src="img/P/Nathaniel.jpg">
+                    <figcaption>Nathaniel</figcaption>
+                </figure>
             </section>
             <section class="personajes">
-                <img src="img/P/Oghren2.jpg">
-                <img src="img/P/Sigrun.jpg">
-                <img src="img/P/Velanna.jpg">
+                <figure>
+                    <img onclick="oghren2()" src="img/P/Oghren2.jpg">
+                    <figcaption>Oghren</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="sigrun()" src="img/P/Sigrun.jpg">
+                    <figcaption>Sigrun</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="velanna()" src="img/P/Velanna.jpg">
+                    <figcaption>Velanna</figcaption>
+                </figure>
         </div>
     </main>
 
@@ -40,6 +58,7 @@
       
     </footer>
     <script src="script.js"></script>
+    <script src="personajes.js"></script>
 </body>
 
 </html>

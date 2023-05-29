@@ -10,7 +10,7 @@
 
 <body>
     <header class="container-nav">
-        <nav class="navbar">
+        <nav class="navbar" role="navigation">
             <a href="index.html" class="brand">Mi página web</a>
             <ul class="nav-links">
                 <li><a href=hawke.html> Hawke </a> </li>
@@ -25,18 +25,48 @@
         <div class="container">
             <h1>Choose your player</h1>
             <section class="personajes">
-                <img src="img/P/Alistair.jpg">
-                <img src="img/P/Barkspawn.jpg">
-                <img src="img/P/Leliana.jpg">
-                <img src="img/P/Loghain.png">
-                <img src="img/P/Morrigan.png">
+                <figure>
+                    <img onclick="alistair()" src="img/P/Alistair.jpg">
+                    <figcaption>Alistair</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="barkspawn()" src="img/P/Barkspawn.jpg">
+                    <figcaption>Barkspawn</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="leliana()" src="img/P/Leliana.jpg">
+                    <figcaption>Leliana</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="loghain()" src="img/P/Loghain.png">
+                    <figcaption>Loghain</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="morrigan()" src="img/P/Morrigan.png">
+                    <figcaption>Morrigan</figcaption>
+                </figure>
             </section>
             <section class="personajes">
-                <img src="img/P/Oghren.jpg">
-                <img src="img/P/Shale.jpg">
-                <img src="img/P/Sten.jpg">
-                <img src="img/P/Wynne.jpg">
-                <img src="img/P/Zevran.jpg">
+                <figure>
+                    <img onclick="oghren()" src="img/P/Oghren.jpg">
+                    <figcaption>Oghren</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="shale()" src="img/P/Shale.jpg">
+                    <figcaption>Shale</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="sten()" src="img/P/Sten.jpg">
+                    <figcaption>Sten</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="wynne()" src="img/P/Wynne.jpg">
+                    <figcaption>Wynne</figcaption>
+                </figure>
+                <figure>
+                    <img onclick="zevran()" src="img/P/Zevran.jpg">
+                    <figcaption>Zevran</figcaption>
+                </figure>
             </section>
         </div>
     </main>
@@ -45,6 +75,7 @@
       
     </footer>
     <script src="script.js"></script>
+    <script src="personajes.js"></script>
 </body>
 
 </html>

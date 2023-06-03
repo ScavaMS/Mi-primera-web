@@ -42,7 +42,7 @@ function isabela() {alert("Pirata con miedo al compromiso que le gusta guardar s
 
 function bethany() {alert("La melliza buena.");}
 
-function merill() {alert("Casi comete genocidio ante todo su clan por despistada (es un poco torpe nada más)");}
+function merrill() {alert("Casi comete genocidio ante todo su clan por despistada (es un poco torpe nada más)");}
 
 function sebastian() {alert("Chico religioso que no puede estar un minuto sin recitar un verso o meterse en la vida de los demás");}
 
